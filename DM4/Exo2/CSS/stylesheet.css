@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 245, 226);
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(164,164,164,1) 0%, rgba(61,61,61,1) 100%);
+    border-bottom: 5px solid rgb(148, 148, 148);
+}
+
+header p {
+    color: white;
+    right: 30px;
+    top: 8px;
+    position: absolute;
+}
+
+table {
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 5px 30px 30px 30px;
+    background-color: #F8F8F8;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 950px;
+}
+
+#page {
+    padding-top: 40px;
+}
+
+#box-contenu {
+    background:#f9f7f3;
+    border-radius: 5px;
+    box-shadow: 0 0 1px#a7a9ac;
+    margin-bottom: 20px;
+}
+
+#contenu {
+    position: relative;
+    padding: 18px;
+    padding-top: 5px;
+    line-height: 1.5;
+    color: #58595b;
+}
+
+b {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+input {
+    padding: 8px 12px 8px 12px;
+}
+
+.retour, .retour:hover, .deconnexion, .deconnexion:hover, .connexion {
+    padding: 8px 20px 8px 20px;
+    border: 2px solid rgb(185, 184, 184);
+    border-radius: 10px;
+}
+
+.connexion {
+    position: relative;
+    top: 12px;
+}
+
+.connexion:hover {
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+
+.deconnexion {
+    top: 12px;
+    left: 13%;
+    background-color: white;
+    color: black;
+    position: absolute;
+}
+
+.deconnexion:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+}
+
+footer {
+    bottom: 2%;
+    left: 10px;
+    position: absolute;
+}
+
+.retour {
+    background-color: white;
+    color: black;
+}
+
+.retour:hover {
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+
+a, li{
+    text-decoration: none;
+    color: blue
+}
+
+a:hover {
+    color: rgb(124, 124, 255);
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+ul, h1 {
+    text-align: center;
+    list-style-type: none;
+}
+
+ul {
+    font-size: 17px;
+}
+
+h1 {
+    text-decoration: underline;
+}
